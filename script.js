@@ -29,25 +29,25 @@ button.style.color = "#f08400";
 const actions = [
     () => {
         button.style.color = '#fbff00df';
-        button.style.backgroundImage = "url('gifs/Yes.gif')";
+        button.style.backgroundImage = "url('Yes.gif')";
         button.textContent = 'Yes!';
         button.style.backgroundSize = 'cover';
     },
     () => {
         button.style.color = '#020000ee';
-        button.style.backgroundImage = "url('gifs/NotNow.gif')";
+        button.style.backgroundImage = "url('NotNow.gif')";
         button.textContent = 'No.';
         button.style.backgroundSize = 'cover';
     },
     () => {
         button.style.color = '#a100c1e3';
-        button.style.backgroundImage = "url('gifs/Maybe.gif')";
+        button.style.backgroundImage = "url('Maybe.gif')";
         button.textContent = 'Maybe?';
         button.style.backgroundSize = 'cover';
     },
     () => {
         button.style.color = '#b300d7e5';
-        button.style.backgroundImage = "url('gifs/No.gif')";
+        button.style.backgroundImage = "url('No.gif')";
         button.textContent = 'Not now...';
         button.style.backgroundSize = 'cover';
     }
